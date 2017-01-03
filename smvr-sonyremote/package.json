@@ -1,0 +1,23 @@
+{
+  "name": "smvr-sonyremote",
+  "version": "1.2.2",
+  "description": "Take Photo via Sony's Remote Wifi API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StopMotionVR/Handbuch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-ssdp": "^2.7.2",
+    "node-wifi": "^1.1.0",
+    "request": "^2.74.0",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {}
+}
